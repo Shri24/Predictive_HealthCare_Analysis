@@ -11,15 +11,18 @@ Ensure ethical handling of sensitive healthcare data
 📂 Dataset
 
 Datasets are sourced from:
+
 UCI Machine Learning Repository
 Kaggle
 
 Examples:
+
 Pima Indians Diabetes Dataset
 Heart Disease Dataset
 ⚙️ Data Preprocessing
 
 To ensure consistency and model performance:
+
 Handling missing values
 Normalization / Standardization of features
 Encoding categorical variables
@@ -27,34 +30,35 @@ Outlier detection and treatment
 🤖 Machine Learning Models
 
 The following classification algorithms are used:
+
 Logistic Regression
 Decision Tree
 Random Forest
 Support Vector Machine (SVM)
 K-Nearest Neighbors (KNN)
-
 📊 Feature Importance Analysis
 Identifies key health indicators influencing predictions
 Techniques used:
 Feature importance from tree-based models
 Correlation analysis
 SHAP / LIME (optional advanced explainability)
-
 📈 Model Evaluation
+
 Models are evaluated using:
+
 Accuracy
 Precision
 Recall
 F1-Score
 ROC-AUC Curve
-
 🔐 Ethical Considerations
+
 Healthcare data is highly sensitive. This project ensures:
+
 Data anonymization (no personal identifiers)
 Secure data handling practices
 Compliance with privacy standards
 Bias detection and fairness in predictions
-
 🚀 Project Workflow
 Data Collection
 Data Cleaning & Preprocessing
@@ -63,19 +67,16 @@ Model Training
 Model Evaluation
 Feature Importance Analysis
 Deployment (optional)
-
 🛠️ Tech Stack
 Python
 Pandas, NumPy
 Scikit-learn
 Matplotlib, Seaborn
 Jupyter Notebook
-
 📌 Results & Insights
 Achieved high accuracy in disease prediction models
 Identified critical health factors such as glucose level, BMI, age, and blood pressure
 Demonstrated the importance of early risk detection
-
 📦 Future Improvements
 Use deep learning models
 Integrate real-time health data
